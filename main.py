@@ -3,9 +3,10 @@ import os
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
 from flask_login import login_user, logout_user, LoginManager, login_required
+
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'kusumachandashwini')
-
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URL")
 
 # this is for getting unique user access
 login_manager=LoginManager(app)
