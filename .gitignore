@@ -1,0 +1,31 @@
+# Virtual environment
+myenv/
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment and local files
+.env
+instance/
+*.sqlite3
+*.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
