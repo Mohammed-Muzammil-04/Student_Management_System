@@ -7,7 +7,6 @@ jmespath==0.9.5
 Js2Py==0.70
 MarkupPy==1.14
 MarkupSafe==1.1.1
-mysqlclient==2.0.1
 Naked==0.1.31
 packaging==20.4
 Pillow==7.1.1
